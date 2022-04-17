@@ -1,0 +1,130 @@
+body {
+    margin: 0 auto;
+    text-align: center;
+    /* width: 50%;
+    height: 50%; */
+    background-color: lightblue;
+    max-width: 960px;
+}
+
+header {
+    background-color: white;
+    font-size: 2rem;
+    padding: 0.5em 1em;
+    position: fixed;
+    left:0;
+    right:0;
+    box-shadow: 0 2px 4px -2px black;
+}
+
+nav {
+    float: right;
+}
+
+main{
+    min-height: 100vh;
+    box-shadow: 0 0 12px -2px black;
+    padding: 64px 24px 96px;
+}
+
+.top-container {
+    background-color: #E4F9F5;
+    /* position: relative; */
+    /* padding-top: 1rem; */
+    border-top: 1px solid #bbb;
+}
+
+.middle-container {
+    background-color: #E4F9F5;
+    /* position: relative; */
+    border-top: 1px solid #bbb;
+    padding-top: 2rem;
+}
+
+.middle-container h2 {
+    text-align: left;
+    display: block;
+    /* padding-left: 5px; */
+}
+
+.work {
+    overflow: auto;
+}
+
+.work img {
+    height: 100px;
+    padding-left: 5px;
+    float: left;
+}
+
+.work h2 {
+    text-align: left;
+    display: block;
+    
+}
+
+.middle-container p {
+    clear: none;
+}
+
+.camera {
+    height: 100px;
+    padding-left: 5px;
+    float: left;
+}
+
+.hobby h2 {
+    text-align: left;
+    padding-left: 5px;
+}
+
+.hobby p{
+    clear: none;
+}
+
+.hobby {
+    overflow: auto;
+}
+
+.fitness{
+    overflow: auto;
+}
+
+.gym{
+    height: 100px;
+    padding-left: 5px;
+    float: left;
+}
+
+.fitness p{
+    clear: none;
+}
+
+.fitness h2{
+    padding-left: 5px
+}
+
+.bottom-container {
+    background-color: #E4F9F5;
+    /* position: relative; */
+    padding-top: 2rem;
+    /* margin-bottom: 0; */
+    border-top: 1px solid #bbb;
+}
+
+footer img {
+    height: 2rem;
+    padding: 16px;
+}
+
+footer {
+    text-align: center;
+    background-color: white;
+    position:fixed;
+    box-sizing: border-box;
+    height: 64px;
+    padding:16px;
+    bottom:0;
+    left:0;
+    right:0;
+    box-shadow: 0 -2px 4px -2px black;}

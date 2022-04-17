@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Updock&family=Whisper&display=swap');
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    /* width: 50%;
+    height: 50%; */
+    background-color: lightblue;
+    max-width: 960px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+
+header {
+    background-color: white;
+    font-size: 2rem;
+    padding: 0.5em 1em;
+    position: fixed;
+    left:0;
+    right:0;
+    box-shadow: 0 2px 4px -2px black;
+}
+
+.quote{
+    font-size: 45px;
+    font-family: 'Whisper', cursive;
+}
+
+
+.top-container {
+    background-color: #E4F9F5;
+    /* position: relative;
+    width: 70%;
+    height: 80%; */
+    /* margin: 0 auto; */
+    /* padding-top: 2rem; */
+    min-height: 100vh;
+    padding: 100px 24px 96px;
+}
+
+.top-container img{
+    max-width: 100%;
+    height:auto;
+}
+
+#name{
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+footer img {
+    height: 2rem;
+    padding: 16px;
+}
+
+footer {
+    text-align: center;
+    background-color: white;
+    position:fixed;
+    box-sizing: border-box;
+    height: 64px;
+    padding:16px;
+    bottom:0;
+    left:0;
+    right:0;
+    box-shadow: 0 -2px 4px -2px black;
+}
+
+/* .bottom-cloud{
+    position: absolute;
+    left: 300px;
+    top: 300px;
+} */
+
+/* .top-cloud{
+    position:absolute;
+    right: 300px;
+    top: 50px;
+} */

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+* {
+    font-family: 'Times New Roman', Times, serif
+}
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    /* width: 50%;
+    height: 50%; */
+    background-color: lightblue;
+    max-width: 960px;
+}
+
+main{
+    min-height: 100vh;
+    /* box-shadow: 0 0 12px -2px black; */
+    padding: 64px 24px 96px;
+}
+
+
+header {
+    background-color: white;
+    font-size: 2rem;
+    padding: 0.5em 1em;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    box-shadow: 0 2px 4px -2px black;
+}
+
+nav {
+    float: right;
+}
+
+div {
+    border: 3px solid black;
+    padding: 20px 20px 185px 20px;
+    margin: 30px;
+    background-color: #E4F9F5;
+}
+
+.project-titles {
+    border-bottom: 1px solid black;
+    width: 46%;
+    margin-left: 50%;
+}
+
+
+.project-1-img {
+    float: right;
+    width: 200px;
+}
+
+.project-2-img {
+    float: left;
+    width: 200px;
+}
+
+.project-3-img {
+    float: right;
+    width: 200px;
+}
+
+footer img {
+    height: 2rem;
+    padding: 16px;
+}
+
+footer {
+    text-align: center;
+    background-color: white;
+    position:fixed;
+    box-sizing: border-box;
+    height: 64px;
+    padding:16px;
+    bottom:0;
+    left:0;
+    right:0;
+    box-shadow: 0 -2px 4px -2px black;
+}
